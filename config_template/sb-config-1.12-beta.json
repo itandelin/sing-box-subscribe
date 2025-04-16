@@ -23,13 +23,13 @@
       {
         "tag": "google",
         "type": "tls",
-        "server": "8.8.8.8"
+        "server": "8.8.8.8",
+        "detour": "Proxy"
       },
       {
         "tag": "local",
         "type": "https",
-        "server": "223.5.5.5",
-        "detour": "direct"
+        "server": "223.5.5.5"
       },
       {
         "tag": "fakeip",
